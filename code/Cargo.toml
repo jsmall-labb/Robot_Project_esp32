@@ -1,11 +1,11 @@
 [package]
 edition      = "2021"
-name         = "Code"
+name         = "code"
 rust-version = "1.86"
 version      = "0.1.0"
 
 [[bin]]
-name = "Code"
+name = "code"
 path = "./src/bin/main.rs"
 
 [dependencies]
