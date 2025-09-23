@@ -1,0 +1,43 @@
+viewing from front of the robot
+
+H_Bridge_L:
+1,2 Enable = 14
+3,4 Enable = 25
+Input_1 = 12
+Input_2 = 13
+Input_3 = 26
+Input_4 = 27
+
+H_Bridge_R:
+1,2 Enable = 15
+3,4 Enable = 18
+Input_1 = 21
+Input_2 = TX0
+Input_3 = 17
+Input_4 = 16
+
+Motor:
+FL = H_Bridge_L output 1,2
+FR = H_Bridge_R output 1,2
+RL = H_Bridge_L output 3,4
+RR = H_Bridge_R output 3,4
+
+US Sensor Out_Put:
+FL = 32
+FM = 33
+FR = 22
+RM = 23
+
+After going through voltage divider
+US Sensor In_Put:
+FL = VIN
+FM = 34
+FR = 35
+RM = VP
+
+IR Sensor:
+FL = 19
+FR = 5
+BR = 4
+BL = 2
+
